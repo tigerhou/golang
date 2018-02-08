@@ -1,9 +1,10 @@
 package main
 
-import "fmt"
+//import "fmt"
 
 type Point struct{ X, Y int }
 
+/*
 func main() {
 	p := Point{1, 2}
 	//fmt.Println(Scale(p, 5))
@@ -19,7 +20,7 @@ func main() {
 	Scale_p2(&p, 5)
 	fmt.Println(p)
 }
-
+*/
 func Scale(p Point, factor int) Point {
 	return Point{p.X * factor, p.Y * factor}
 }
